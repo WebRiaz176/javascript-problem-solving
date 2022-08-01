@@ -1,0 +1,12 @@
+var subjects = 5;
+console.log(subjects);
+var math = 75.25;
+var bio = 65;
+var chem = 80;
+var phy = 35.45;
+var bng = 99.50;
+var totalMarks = math+bio+chem+phy+bng;
+console.log(totalMarks);
+var averageMarks = totalMarks / subjects ;
+var averageMarks = (averageMarks.toFixed(3));
+console.log(averageMarks);
